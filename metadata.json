@@ -1,0 +1,6 @@
+{
+  "name": "Lotus Spa Nepal",
+  "description": "Professional, luxurious wellness and spa brand in Nepal including Itahari, Dharan, and Biratnagar branches. Rejuvenate your body, mind, and soul.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
