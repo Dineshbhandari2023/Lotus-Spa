@@ -1,1 +1,25 @@
 @import "tailwindcss";
+
+@source "../app";
+@source "../components";
+@source "../lib";
+@source "../public";
+
+@layer components {
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-[#121510] text-[#ECEAE2] font-sans antialiased;
+    font-family: var(--font-montserrat), var(--font-sans);
+  }
+
+  ::selection {
+    background: rgba(124, 132, 97, 0.35);
+    color: #ffffff;
+  }
+}
